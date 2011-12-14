@@ -1,0 +1,20 @@
+--- origsrc/gucharmap-2.22.3/gucharmap/Makefile.am	2008-03-23 07:51:28.000000000 -0500
++++ src/gucharmap-2.22.3/gucharmap/Makefile.am	2008-07-09 22:34:10.312500000 -0500
+@@ -63,6 +63,7 @@
+ libgucharmap_la_LDFLAGS = \
+ 	-version-info $(LIBGUCHARMAP_LT_VERSION)	\
+ 	-export-symbols-regex "^gucharmap_*"		\
++	-no-undefined		\
+ 	$(AM_LDFLAGS)
+ 
+ libgucharmap_la_LIBADD = \
+--- origsrc/gucharmap-2.26.2/bindings/python/Makefile.am	2009-05-18 11:57:20.000000000 -0500
++++ src/gucharmap-2.26.2/bindings/python/Makefile.am	2009-06-08 10:45:27.573928200 -0500
+@@ -57,6 +57,7 @@ gucharmap_la_LIBADD = \
+ gucharmap_la_LDFLAGS = \
+ 	-module \
+ 	-avoid-version	\
++	-no-undefined	\
+ 	-export-symbols-regex initgucharmap \
+ 	$(AM_LDFLAGS)
+ 

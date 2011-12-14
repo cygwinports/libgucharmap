@@ -1,0 +1,11 @@
+--- origsrc/gucharmap-2.32.1/configure.ac	2010-11-13 05:08:11.000000000 -0600
++++ src/gucharmap-2.32.1/configure.ac	2011-12-14 14:42:12.622125900 -0600
+@@ -195,7 +195,7 @@ AC_PROG_LN_S
+ # i18n
+ # ****
+ 
+-GETTEXT_PACKAGE=gucharmap
++GETTEXT_PACKAGE=gucharmap-2.0
+ AC_SUBST([GETTEXT_PACKAGE])
+ AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE],["$GETTEXT_PACKAGE"],[The gucharmap gettext domain])
+ AM_GLIB_GNU_GETTEXT

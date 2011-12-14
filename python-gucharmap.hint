@@ -1,0 +1,5 @@
+category: Gnome Python
+requires: libglib2.0_0 libgucharmap7 python python-gobject python-gtk2.0
+external-source: libgucharmap
+sdesc: "GNOME unicode character map (Python bindings)"
+ldesc: "gucharmap is a featureful unicode character map for GNOME"
