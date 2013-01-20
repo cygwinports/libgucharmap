@@ -1,5 +1,0 @@
-category: Gnome
-requires: libatk1.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0
-external-source: libgucharmap
-sdesc: "GNOME unicode character map (library)"
-ldesc: "gucharmap is a featureful unicode character map for GNOME"
