@@ -4,7 +4,7 @@ inherit pygtk gnome2
 NAME="libgucharmap"
 VERSION=2.32.1
 RELEASE=2
-CATEGORY="Gnome Editors"
+CATEGORY="Libs"
 SUMMARY="GTK+2 unicode character map library"
 DESCRIPTION="gucharmap is a featureful unicode character map for GNOME"
 HOMEPAGE="http://gucharmap.sourceforge.net/"
